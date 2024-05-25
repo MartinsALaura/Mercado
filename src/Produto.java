@@ -39,6 +39,6 @@ public class Produto {
     }
 
     public boolean verificarodutoVencido(Data data){
-        return data == this.validade;
+        return data.toString() == this.validade.toString();
     }
 }
